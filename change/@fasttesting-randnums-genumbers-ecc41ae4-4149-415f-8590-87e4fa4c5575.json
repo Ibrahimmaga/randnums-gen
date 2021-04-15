@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "credential test",
-  "packageName": "@fasttesting/randnums-genumbers",
-  "email": "imaga75@hotmail.com",
-  "dependentChangeType": "patch"
-}
