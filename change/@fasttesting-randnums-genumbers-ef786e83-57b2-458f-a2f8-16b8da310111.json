@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "this is a minor version change",
+  "packageName": "@fasttesting/randnums-genumbers",
+  "email": "imaga75@hotmail.com",
+  "dependentChangeType": "patch"
+}
