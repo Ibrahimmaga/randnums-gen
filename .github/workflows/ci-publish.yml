@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: authenticate
         run: |
-          git config --global user.email "imaga75@hotmail.com"
+          git config --global user.email "fastsvc@microsoft.com"
           git config --global user.name "Ibrahim maga"
       - uses: actions/checkout@v2
       - run: yarn
