@@ -28,7 +28,7 @@ jobs:
       - run: yarn
       - name: NPM PUBLISH
         env:
-        NPM_SECRET_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_SECRET_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: yarn publish-ci -n $NPM_SECRET_TOKEN -verbose
 
   
