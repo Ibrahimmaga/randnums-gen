@@ -2,11 +2,11 @@
 a function to generade random number
 
 ## Installation
-Run 'npm i randnums-gen'
+Run 'npm i randnums-genumber'
 
 Use:
 '''
-import rng from 'randnums-gen';
+import rng from 'randnums-genumber';
 rng(5,10);
 '''
 ## Parameters

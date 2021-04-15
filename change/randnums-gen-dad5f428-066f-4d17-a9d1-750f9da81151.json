@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "minor change stuffs",
-  "packageName": "randnums-gen",
-  "email": "imaga75@hotmail.com",
-  "dependentChangeType": "patch"
-}
