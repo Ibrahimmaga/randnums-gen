@@ -26,7 +26,7 @@ jobs:
           node-version: 14
           registry-url: https://registry.npmjs.org/
       - run: yarn
-      - run: yarn beachball publish --access public
+      - run: yarn beachball publish -y --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
