@@ -22,7 +22,7 @@ jobs:
       - name: authenticate
         run: |
           git config --global user.email "fastsvc@microsoft.com"
-          git config --global user.name "Ibrahim maga"
+          git config --global user.name "Fast Service Test"
       - uses: actions/checkout@v2
       - run: yarn
       - name: NPM PUBLISH
