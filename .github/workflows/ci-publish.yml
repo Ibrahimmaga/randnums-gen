@@ -21,6 +21,10 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - name: authenticate
+        run: |
+          git config --global user.email "imaga75@hotmail.com"
+          git config --global user.name "Ibrahim maga"
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
