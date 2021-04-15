@@ -18,6 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <p>beachball in second package</p>
     </div>
   );
 }
