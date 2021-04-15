@@ -19,6 +19,10 @@ jobs:
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
+    - name: Authenticate Git for Pushes
+      run: |
+        git config --global user.name "${{ env.GITHUB_SERVICE_USER }}"
+        git config --global user.email "${{ env.GITHUB_SERVICE_EMAIL }}"
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
