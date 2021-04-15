@@ -1,16 +1,20 @@
 {
   "name": "randnums-genumbers",
   "version": "1.0.0",
-  "description": "Random number generator",
+  "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ibrahimmaga/randnums-gen.git"
+  },
   "keywords": [],
-  "author": "Ibrahim",
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "beachball": "^2.2.0"
-  }
+  "bugs": {
+    "url": "https://github.com/Ibrahimmaga/randnums-gen/issues"
+  },
+  "homepage": "https://github.com/Ibrahimmaga/randnums-gen#readme"
 }
