@@ -1,6 +1,6 @@
 {
   "name": "randnums-genumbers",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "description": "Random number generator",
   "main": "index.js",
   "type": "module",
