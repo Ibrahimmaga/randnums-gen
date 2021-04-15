@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const workspace_tools_1 = require("workspace-tools");
+function mergePublishBranch(publishBranch, branch, message, cwd) {
+    let result;
+    let mergeSteps = [
+        ['add', '.'],
+        ['commit', '-m', message],
+        ['checkout', branch],
+        ['merge', '-X', 'ours', publishBranch],
+    ];
+    for (let index = 0; index < mergeSteps.length; index++) {
+        const step = mergeSteps[index];
+        result = workspace_tools_1.git(step, { cwd });
+        if (!result.success) {
+            console.error(`mergePublishBranch (${index + 1} / ${mergeSteps.length}) - trying to run "git ${step.join(' ')}"`);
+            console.error(result.stdout && result.stdout.toString().trim());
+            console.error(result.stderr && result.stderr.toString().trim());
+            return result;
+        }
+    }
+    return result;
+}
+exports.mergePublishBranch = mergePublishBranch;
+//# sourceMappingURL=mergePublishBranch.js.map
