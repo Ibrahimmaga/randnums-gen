@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "add app service on and app servicetwo",
-  "packageName": "randnums-genumbers",
-  "email": "imaga75@hotmail.com",
-  "dependentChangeType": "patch"
-}
