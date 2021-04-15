@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "this is just a patch",
+  "packageName": "randnums-genumbers",
+  "email": "imaga75@hotmail.com",
+  "dependentChangeType": "patch"
+}
