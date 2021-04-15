@@ -27,8 +27,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: yarn
       - name: NPM PUBLISH
+        
+      - run: yarn publish-ci -n $NPM_SECRET_TOKEN -verbose
         env:
           NPM_SECRET_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - run: yarn publish-ci -n $NPM_SECRET_TOKEN -verbose
-
   
