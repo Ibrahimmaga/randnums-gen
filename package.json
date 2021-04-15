@@ -1,5 +1,5 @@
 {
-  "name": "randnums-genumbers",
+  "name": "@fasttesting/randnums-genumbers",
   "version": "1.0.9",
   "description": "",
   "main": "index.js",
