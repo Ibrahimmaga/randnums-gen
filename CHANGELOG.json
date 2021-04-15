@@ -1,0 +1,32 @@
+{
+  "name": "randnums-genumbers",
+  "entries": [
+    {
+      "date": "Thu, 15 Apr 2021 21:45:48 GMT",
+      "tag": "randnums-genumbers_v1.0.10",
+      "version": "1.0.10",
+      "comments": {
+        "patch": [
+          {
+            "comment": "minor bump to 1.0.7",
+            "author": "imaga75@hotmail.com",
+            "commit": "849e92f43de21c93a5fb41356a5c696959722883",
+            "package": "randnums-genumbers"
+          },
+          {
+            "comment": "modify packages one",
+            "author": "imaga75@hotmail.com",
+            "commit": "849e92f43de21c93a5fb41356a5c696959722883",
+            "package": "randnums-genumbers"
+          },
+          {
+            "comment": "minor 1.0.9",
+            "author": "imaga75@hotmail.com",
+            "commit": "849e92f43de21c93a5fb41356a5c696959722883",
+            "package": "randnums-genumbers"
+          }
+        ]
+      }
+    }
+  ]
+}
