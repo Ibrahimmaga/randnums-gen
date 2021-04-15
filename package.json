@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ibrahimmaga/randnums-gen/issues"
   },
-  "homepage": "https://github.com/Ibrahimmaga/randnums-gen#readme"
+  "homepage": "https://github.com/Ibrahimmaga/randnums-gen#readme",
+  "devDependencies": {
+    "beachball": "^2.2.0"
+  }
 }
