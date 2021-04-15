@@ -1,0 +1,20 @@
+{
+  "name": "randnums-gen",
+  "entries": [
+    {
+      "date": "Thu, 15 Apr 2021 15:09:05 GMT",
+      "tag": "randnums-gen_v1.0.3",
+      "version": "1.0.3",
+      "comments": {
+        "patch": [
+          {
+            "comment": "new version here",
+            "author": "imaga75@hotmail.com",
+            "commit": "6d34ea5afa74d4995f13b1990fb2770b21f514f4",
+            "package": "randnums-gen"
+          }
+        ]
+      }
+    }
+  ]
+}
