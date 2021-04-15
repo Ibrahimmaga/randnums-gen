@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "minor scope",
-  "packageName": "@fasttesting/randnums-genumbers",
-  "email": "imaga75@hotmail.com",
-  "dependentChangeType": "patch"
-}
