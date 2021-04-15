@@ -27,7 +27,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: yarn
       - name: NPM PUBLISH
-      - run: yarn beachball publish -n $NPM_SECRET_TOKEN -verbose 
+        run: yarn beachball publish -n $NPM_SECRET_TOKEN  --access public
         env:
           NPM_SECRET_TOKEN: ${{ secrets.NPM_TOKEN }}
   
