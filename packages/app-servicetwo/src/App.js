@@ -19,7 +19,7 @@ function App() {
         </a>
       </header>
       <p>beachball in second package and git creadential add protected branch</p>
-      <p>protected branch</p>
+      <p>protected branch with security</p>
     </div>
   );
 }
