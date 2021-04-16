@@ -2,6 +2,21 @@
   "name": "@fasttesting/randnums-genumbers",
   "entries": [
     {
+      "date": "Fri, 16 Apr 2021 02:08:54 GMT",
+      "tag": "@fasttesting/randnums-genumbers_v1.0.13",
+      "version": "1.0.13",
+      "comments": {
+        "patch": [
+          {
+            "comment": "add token to publish",
+            "author": "imaga75@hotmail.com",
+            "commit": "19f00051f8889a350edcbe5a1bdf93ff2356754a",
+            "package": "@fasttesting/randnums-genumbers"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 15 Apr 2021 23:57:42 GMT",
       "tag": "@fasttesting/randnums-genumbers_v1.0.12",
       "version": "1.0.12",

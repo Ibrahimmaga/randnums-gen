@@ -1,8 +1,16 @@
 # Change Log - @fasttesting/randnums-genumbers
 
-This log was last generated on Thu, 15 Apr 2021 23:57:42 GMT and should not be manually modified.
+This log was last generated on Fri, 16 Apr 2021 02:08:54 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 1.0.13
+
+Fri, 16 Apr 2021 02:08:54 GMT
+
+### Patches
+
+- add token to publish (imaga75@hotmail.com)
 
 ## 1.0.12
 
