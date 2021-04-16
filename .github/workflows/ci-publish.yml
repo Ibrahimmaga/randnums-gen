@@ -12,8 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-  
-      - run: yarn
+      - run: yarn  
 
   publish-npm:
     needs: build
@@ -24,6 +23,8 @@ jobs:
           git config --global user.email "fastsvc@microsoft.com"
           git config --global user.name "Fast Service Test"
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GH_TOKEN}}
       - run: yarn
       - name: NPM PUBLISH
         run: yarn publish-ci -n $NPM_SECRET_TOKEN
