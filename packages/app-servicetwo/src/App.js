@@ -18,7 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <p>beachball in second package and git creadential</p>
+      <p>beachball in second package and git creadential add protected branch</p>
     </div>
   );
 }
