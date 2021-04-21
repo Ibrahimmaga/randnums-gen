@@ -7,7 +7,7 @@ on:
   workflow_dispatch
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
- 
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -32,6 +32,9 @@ jobs:
         run: yarn publish-ci -n $NPM_SECRET_TOKEN
         env:
           NPM_SECRET_TOKEN: ${{ secrets.NPM_TOKEN }}
-      
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJSON(github) }}
+        run: echo "$GITHUB_CONTEXT"
        
   
