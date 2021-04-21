@@ -5,7 +5,8 @@ name: Node.js Package
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron:  '*/15 * * * *'
+    
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
