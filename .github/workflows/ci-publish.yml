@@ -23,7 +23,7 @@ jobs:
         run: |
           git config --global user.email "fastsvc@microsoft.com"
           git config --global user.name "Fast Service Test"
-          eho github_context
+        
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.GH_TOKEN}}
